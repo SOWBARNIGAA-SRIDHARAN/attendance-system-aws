@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://workpulse-backend-bagchcfsh6h5dxbz.eastasia-01.azurewebsites.net/api',
+    baseURL: 'http://52.64.126.72:5000/api',
 });
 
 api.interceptors.request.use((config) => {
